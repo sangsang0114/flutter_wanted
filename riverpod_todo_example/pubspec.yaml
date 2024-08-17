@@ -1,0 +1,28 @@
+name: riverpod_todo_example
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  riverpod_generator: ^2.4.2
+  build_runner: ^2.4.11
+  riverpod_lint: ^2.3.12
+  custom_lint: ^0.6.4
+  flutter_lints: ^3.0.0
+  analyzer: ^6.4.0  # 버전 조정
+
+flutter:
+  uses-material-design: true
